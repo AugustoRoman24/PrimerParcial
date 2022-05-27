@@ -7,6 +7,8 @@
 #include "cencista.h"
 #include <stdio.h>
 #include <string.h>
+#include "vivienda.h"
+
 
 void InicializarCensista(Censista* censistas, int len) {
 	for (int i = 3; i < len; i++) {
@@ -67,5 +69,24 @@ int ExisteCensista(Censista* censistas, int len, int legajo) {
 		}
 	}
 	return 0;
+}
+void ListarCensistasPorViviendas(Censista* censistas, int len) {
+
+	for (int i = 0; i < len; i++) {
+		if (censistas[i].legajo > 0) {
+			printf("\n Censista %d", i);
+			printf("\n Legajo: %d", censistas[i].legajo);
+			printf("\n Nombre: %s", censistas[i].nombre);
+			printf("\n Edad: %d", censistas[i].edad);
+			printf("\n Telefono: %s", censistas[i].telefono);
+			printf("\n Id vivienda: %d",  censistas[i].vivienda.idVivienda);
+			printf("\n calle: %s", censistas[i].vivienda.calle);
+			printf("\n cantidad de habitantes: %d", censistas[i].vivienda.cantidadPersonas);
+			printf("\n cantidad de habitaciones: %d", censistas[i].vivienda.cantidadHabitaciones);
+			printf("\n tipo de vivienda: %d", censistas[i].vivienda.tipoVivienda);
+
+
+		}
+	}
 }
 

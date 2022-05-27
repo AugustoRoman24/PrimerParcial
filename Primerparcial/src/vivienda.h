@@ -8,6 +8,7 @@
 #define SRC_VIVIENDA_H_
 
 #define TAM_CALLE 25
+#define TAM_NOMBRE 50
 
 struct vivienda {
 	int idVivienda;
@@ -16,7 +17,9 @@ struct vivienda {
 	int cantidadHabitaciones;
 	int tipoVivienda; //(1.CASA - 2.DEPARTAMENTO - 3.CASILLA - 4.RANCHO)
 	int legajoCensista; //(debe existir) Validar
+
 } typedef Vivienda;
+
 /***
  * @fn void InicializarVivienda(Vivienda*, int)
  * @brief ingresa una vivienda
@@ -58,5 +61,7 @@ void ModificarVivienda(Vivienda* viviendas, int len, int idVivienda, int modVivi
 void ModificarCalle(Vivienda* viviendas, int len, int idVivienda, char calle[]);
 int ExisteVivienda(Vivienda* viviendas, int len, int idVivienda);
 int BajarVivienda(Vivienda* viviendas, int len, int idVivienda);
+
+
 
 #endif /* SRC_VIVIENDA_H_ */

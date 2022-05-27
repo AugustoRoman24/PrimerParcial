@@ -6,3 +6,623 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input-UTN.o" "..\\src\\input-UT
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
 gcc -o Primerparcial.exe "src\\Primerparcial.o" "src\\cencista.o" "src\\input-UTN.o" "src\\vivienda.o" 
 Info: Nothing to build for Primerparcial
+08:56:15 **** Rebuild of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\vivienda.o" "..\\src\\vivienda.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input-UTN.o" "..\\src\\input-UTN.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+gcc -o Primerparcial.exe "src\\Primerparcial.o" "src\\cencista.o" "src\\input-UTN.o" "src\\vivienda.o" 
+09:17:35 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\vivienda.o" "..\\src\\vivienda.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:72:54: error: unknown type name 'Vivienda'
+   72 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* vivienda, int len, int idVivienda);
+      |                                                      ^~~~~~~~
+..\src\Primerparcial.c: In function 'main':
+..\src\Primerparcial.c:184:4: warning: implicit declaration of function 'ListarCensistasPorViviendas' [-Wimplicit-function-declaration]
+  184 |    ListarCensistasPorViviendas(censistas,viviendas, TAM_LISTA_VIVIENDAS);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Primerparcial.c:187:3: error: case label not within a switch statement
+  187 |   case 7:
+      |   ^~~~
+09:19:20 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:72:54: error: expected ')' before 'int'
+   72 | void ListarCensistasPorViviendas(censistas, vivienda, int len, int idVivienda);
+      |                                                      ^~~~
+      |                                                      )
+..\src\Primerparcial.c: In function 'main':
+..\src\Primerparcial.c:184:4: warning: implicit declaration of function 'ListarCensistasPorViviendas' [-Wimplicit-function-declaration]
+  184 |    ListarCensistasPorViviendas(censistas,viviendas, TAM_LISTA_VIVIENDAS);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Primerparcial.c:187:3: error: case label not within a switch statement
+  187 |   case 7:
+      |   ^~~~
+09:19:57 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:72:54: error: unknown type name 'Vivienda'
+   72 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* vivienda, int len, int idVivienda);
+      |                                                      ^~~~~~~~
+..\src\cencista.c:10:10: fatal error: vivienda.c: No such file or directory
+   10 | #include <vivienda.c>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+09:21:00 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:72:54: error: unknown type name 'Vivienda'
+   72 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* vivienda, int len, int idVivienda);
+      |                                                      ^~~~~~~~
+..\src\cencista.c:72:54: error: unknown type name 'Vivienda'
+   72 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* vivienda, int len, int idVivienda) {
+      |                                                      ^~~~~~~~
+09:22:04 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:72:54: error: unknown type name 'Vivienda'
+   72 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* vivienda, int len, int idVivienda);
+      |                                                      ^~~~~~~~
+..\src\Primerparcial.c: In function 'main':
+..\src\Primerparcial.c:184:4: warning: implicit declaration of function 'ListarCensistasPorViviendas' [-Wimplicit-function-declaration]
+  184 |    ListarCensistasPorViviendas(censistas,viviendas, TAM_LISTA_VIVIENDAS);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Primerparcial.c:187:3: error: case label not within a switch statement
+  187 |   case 7:
+      |   ^~~~
+09:22:31 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:72:54: error: unknown type name 'Vivienda'
+   72 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* vivienda, int len, int idVivienda);
+      |                                                      ^~~~~~~~
+..\src\Primerparcial.c: In function 'main':
+..\src\Primerparcial.c:184:4: warning: implicit declaration of function 'ListarCensistasPorViviendas' [-Wimplicit-function-declaration]
+  184 |    ListarCensistasPorViviendas(censistas,viviendas, TAM_LISTA_VIVIENDAS);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Primerparcial.c:187:3: error: case label not within a switch statement
+  187 |   case 7:
+      |   ^~~~
+09:23:08 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:72:54: error: unknown type name 'Vivienda'
+   72 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* vivienda, int len, int idVivienda);
+      |                                                      ^~~~~~~~
+..\src\cencista.c:72:54: error: unknown type name 'Vivienda'
+   72 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* viviendas, int len, int idVivienda) {
+      |                                                      ^~~~~~~~
+09:26:28 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:72:54: error: unknown type name 'Vivienda'
+   72 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* viviendas, int len);
+      |                                                      ^~~~~~~~
+..\src\Primerparcial.c: In function 'main':
+..\src\Primerparcial.c:184:4: warning: implicit declaration of function 'ListarCensistasPorViviendas' [-Wimplicit-function-declaration]
+  184 |    ListarCensistasPorViviendas(censistas,viviendas, TAM_LISTA_VIVIENDAS);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Primerparcial.c:187:3: error: case label not within a switch statement
+  187 |   case 7:
+      |   ^~~~
+09:27:56 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:72:54: error: unknown type name 'Vivienda'
+   72 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* vivienda, int len);
+      |                                                      ^~~~~~~~
+..\src\Primerparcial.c: In function 'main':
+..\src\Primerparcial.c:184:4: warning: implicit declaration of function 'ListarCensistasPorViviendas' [-Wimplicit-function-declaration]
+  184 |    ListarCensistasPorViviendas(censistas,vivienda, TAM_LISTA_VIVIENDAS);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Primerparcial.c:184:42: error: 'vivienda' undeclared (first use in this function)
+  184 |    ListarCensistasPorViviendas(censistas,vivienda, TAM_LISTA_VIVIENDAS);
+      |                                          ^~~~~~~~
+..\src\Primerparcial.c:184:42: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Primerparcial.c:187:3: error: case label not within a switch statement
+  187 |   case 7:
+      |   ^~~~
+09:28:02 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:72:54: error: unknown type name 'Vivienda'
+   72 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* vivienda, int len);
+      |                                                      ^~~~~~~~
+..\src\Primerparcial.c: In function 'main':
+..\src\Primerparcial.c:184:4: warning: implicit declaration of function 'ListarCensistasPorViviendas' [-Wimplicit-function-declaration]
+  184 |    ListarCensistasPorViviendas(censistas,viviendas, TAM_LISTA_VIVIENDAS);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Primerparcial.c:187:3: error: case label not within a switch statement
+  187 |   case 7:
+      |   ^~~~
+09:31:46 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:72:54: error: unknown type name 'Vivienda'
+   72 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* vivienda, int len);
+      |                                                      ^~~~~~~~
+..\src\Primerparcial.c: In function 'main':
+..\src\Primerparcial.c:184:4: warning: implicit declaration of function 'ListarCensistasPorViviendas' [-Wimplicit-function-declaration]
+  184 |    ListarCensistasPorViviendas(censistas,vivienda, TAM_LISTA_VIVIENDAS);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Primerparcial.c:184:42: error: 'vivienda' undeclared (first use in this function)
+  184 |    ListarCensistasPorViviendas(censistas,vivienda, TAM_LISTA_VIVIENDAS);
+      |                                          ^~~~~~~~
+..\src\Primerparcial.c:184:42: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Primerparcial.c:187:3: error: case label not within a switch statement
+  187 |   case 7:
+      |   ^~~~
+09:32:05 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:72:54: error: unknown type name 'Vivienda'
+   72 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* vivienda, int len);
+      |                                                      ^~~~~~~~
+..\src\cencista.c: In function 'ListarCensistasPorViviendas':
+..\src\cencista.c:84:40: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   84 |    printf("\n cantidad de habitantes: %d", vivienda[i].calle);
+      |                                       ~^   ~~~~~~~~~~~~~~~~~
+      |                                        |              |
+      |                                        int            char *
+      |                                       %s
+09:32:51 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:72:54: error: unknown type name 'Vivienda'
+   72 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* vivienda, int len);
+      |                                                      ^~~~~~~~
+..\src\Primerparcial.c: In function 'main':
+..\src\Primerparcial.c:184:4: warning: implicit declaration of function 'ListarCensistasPorViviendas' [-Wimplicit-function-declaration]
+  184 |    ListarCensistasPorViviendas(censistas,viviendas, TAM_LISTA_VIVIENDAS);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Primerparcial.c:187:3: error: case label not within a switch statement
+  187 |   case 7:
+      |   ^~~~
+09:46:12 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\vivienda.o" "..\\src\\vivienda.c" 
+In file included from ..\src\vivienda.c:8:
+..\src\vivienda.h:22:14: error: 'TAM_NOMBRE' undeclared here (not in a function)
+   22 |  char nombre[TAM_NOMBRE];
+      |              ^~~~~~~~~~
+09:46:38 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:75:54: error: unknown type name 'Vivienda'
+   75 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* vivienda, int len);
+      |                                                      ^~~~~~~~
+In file included from ..\src\cencista.c:10:
+..\src\vivienda.h:21:8: error: redefinition of 'struct Censista'
+   21 | struct Censista {
+      |        ^~~~~~~~
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:14:8: note: originally defined here
+   14 | struct Censista {
+      |        ^~~~~~~~
+In file included from ..\src\cencista.c:10:
+..\src\vivienda.h:26:11: error: conflicting types for 'Censista'
+   26 | } typedef Censista;
+      |           ^~~~~~~~
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:19:11: note: previous declaration of 'Censista' was here
+   19 | } typedef Censista;
+      |           ^~~~~~~~
+..\src\cencista.c:13:6: error: conflicting types for 'InicializarCensista'
+   13 | void InicializarCensista(Censista* censistas, int len) {
+      |      ^~~~~~~~~~~~~~~~~~~
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:28:6: note: previous declaration of 'InicializarCensista' was here
+   28 | void InicializarCensista(Censista* censistas, int len);
+      |      ^~~~~~~~~~~~~~~~~~~
+..\src\cencista.c:20:6: error: conflicting types for 'ListarCensista'
+   20 | void ListarCensista(Censista* censistas, int len) {
+      |      ^~~~~~~~~~~~~~
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:35:6: note: previous declaration of 'ListarCensista' was here
+   35 | void ListarCensista(Censista* censistas, int len);
+      |      ^~~~~~~~~~~~~~
+..\src\cencista.c:33:6: error: conflicting types for 'AltaCensista'
+   33 | void AltaCensista(Censista* censistas, int len, int legajo, char nombre[], int edad, char telefono[]) {
+      |      ^~~~~~~~~~~~
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:46:6: note: previous declaration of 'AltaCensista' was here
+   46 | void AltaCensista(Censista* censistas, int len, int legajo, char nombre[], int edad, char telefono[]);
+      |      ^~~~~~~~~~~~
+..\src\cencista.c:43:6: error: conflicting types for 'BajaCensista'
+   43 | void BajaCensista(Censista* censistas, int len, int legajo) {
+      |      ^~~~~~~~~~~~
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:54:6: note: previous declaration of 'BajaCensista' was here
+   54 | void BajaCensista(Censista* censistas, int len, int legajo);
+      |      ^~~~~~~~~~~~
+..\src\cencista.c:52:6: error: conflicting types for 'ModificarCensista'
+   52 | void ModificarCensista(Censista* censistas, int len, int legajo, int edad, char telefono[], char nombre[]) {
+      |      ^~~~~~~~~~~~~~~~~
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:65:6: note: previous declaration of 'ModificarCensista' was here
+   65 | void ModificarCensista(Censista* censistas, int len, int legajo, int edad, char telefono[], char nombre[]);
+      |      ^~~~~~~~~~~~~~~~~
+..\src\cencista.c:65:5: error: conflicting types for 'ExisteCensista'
+   65 | int ExisteCensista(Censista* censistas, int len, int legajo) {
+      |     ^~~~~~~~~~~~~~
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:74:5: note: previous declaration of 'ExisteCensista' was here
+   74 | int ExisteCensista(Censista* censistas, int len, int legajo);
+      |     ^~~~~~~~~~~~~~
+09:48:49 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:75:54: error: unknown type name 'Vivienda'
+   75 | void ListarCensistasPorViviendas(Censista* censistas,Vivienda* vivienda, int len);
+      |                                                      ^~~~~~~~
+09:50:02 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\vivienda.o" "..\\src\\vivienda.c" 
+In file included from ..\src\vivienda.c:8:
+..\src\vivienda.h:20:2: error: unknown type name 'Censista'
+   20 |  Censista cencista;
+      |  ^~~~~~~~
+09:50:40 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:75:34: error: unknown type name 'Vivienda'
+   75 | void ListarCensistasPorViviendas(Vivienda* vivienda, int len);
+      |                                  ^~~~~~~~
+09:54:48 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:75:34: error: unknown type name 'Vivienda'
+   75 | void ListarCensistasPorViviendas(Vivienda* vivienda, int len);
+      |                                  ^~~~~~~~
+..\src\Primerparcial.c: In function 'main':
+..\src\Primerparcial.c:49:4: error: a label can only be part of a statement and a declaration is not a statement
+   49 |    char calle[100];
+      |    ^~~~
+..\src\Primerparcial.c:117:5: error: a label can only be part of a statement and a declaration is not a statement
+  117 |     char calle[100];
+      |     ^~~~
+..\src\Primerparcial.c:125:5: error: a label can only be part of a statement and a declaration is not a statement
+  125 |     int cantHabitaciones;
+      |     ^~~
+..\src\Primerparcial.c:133:5: error: a label can only be part of a statement and a declaration is not a statement
+  133 |     int cantPersonas ;
+      |     ^~~
+..\src\Primerparcial.c:140:5: error: a label can only be part of a statement and a declaration is not a statement
+  140 |     int tipoVivienda;
+      |     ^~~
+..\src\Primerparcial.c:156:4: error: a label can only be part of a statement and a declaration is not a statement
+  156 |    int id;
+      |    ^~~
+..\src\Primerparcial.c:157:4: error: expected expression before 'int'
+  157 |    int existe = 0;
+      |    ^~~
+..\src\Primerparcial.c:161:7: error: 'existe' undeclared (first use in this function); did you mean 'exit'?
+  161 |       existe = ExisteVivienda(viviendas, TAM_LISTA_VIVIENDAS,id);
+      |       ^~~~~~
+      |       exit
+..\src\Primerparcial.c:161:7: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Primerparcial.c:183:4: warning: implicit declaration of function 'ListarCensistasPorViviendas' [-Wimplicit-function-declaration]
+  183 |    ListarCensistasPorViviendas(censistas,viviendas, TAM_LISTA_VIVIENDAS);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+09:56:06 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:75:34: error: unknown type name 'Vivienda'
+   75 | void ListarCensistasPorViviendas(Vivienda* vivienda, int len);
+      |                                  ^~~~~~~~
+..\src\Primerparcial.c: In function 'main':
+..\src\Primerparcial.c:49:4: error: a label can only be part of a statement and a declaration is not a statement
+   49 |    char calle[100];
+      |    ^~~~
+..\src\Primerparcial.c:117:5: error: a label can only be part of a statement and a declaration is not a statement
+  117 |     char calle[100];
+      |     ^~~~
+..\src\Primerparcial.c:125:5: error: a label can only be part of a statement and a declaration is not a statement
+  125 |     int cantHabitaciones;
+      |     ^~~
+..\src\Primerparcial.c:133:5: error: a label can only be part of a statement and a declaration is not a statement
+  133 |     int cantPersonas ;
+      |     ^~~
+..\src\Primerparcial.c:140:5: error: a label can only be part of a statement and a declaration is not a statement
+  140 |     int tipoVivienda;
+      |     ^~~
+..\src\Primerparcial.c:156:4: error: a label can only be part of a statement and a declaration is not a statement
+  156 |    int id;
+      |    ^~~
+..\src\Primerparcial.c:157:4: error: expected expression before 'int'
+  157 |    int existe = 0;
+      |    ^~~
+..\src\Primerparcial.c:161:7: error: 'existe' undeclared (first use in this function); did you mean 'exit'?
+  161 |       existe = ExisteVivienda(viviendas, TAM_LISTA_VIVIENDAS,id);
+      |       ^~~~~~
+      |       exit
+..\src\Primerparcial.c:161:7: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Primerparcial.c:183:4: warning: implicit declaration of function 'ListarCensistasPorViviendas' [-Wimplicit-function-declaration]
+  183 |    ListarCensistasPorViviendas(censistas,viviendas, TAM_LISTA_VIVIENDAS);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+09:56:59 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\vivienda.o" "..\\src\\vivienda.c" 
+In file included from ..\src\vivienda.c:8:
+..\src\vivienda.h:20:2: error: unknown type name 'Censista'
+   20 |  Censista cencista;
+      |  ^~~~~~~~
+09:57:17 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:75:34: error: unknown type name 'Vivienda'
+   75 | void ListarCensistasPorViviendas(Vivienda* vivienda, int len);
+      |                                  ^~~~~~~~
+09:58:03 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:19:2: error: unknown type name 'Vivienda'
+   19 |  Vivienda vivienda;
+      |  ^~~~~~~~
+..\src\cencista.h:76:34: error: unknown type name 'Vivienda'
+   76 | void ListarCensistasPorViviendas(Vivienda* vivienda, int len);
+      |                                  ^~~~~~~~
+10:00:54 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:19:2: error: unknown type name 'Vivienda'
+   19 |  Vivienda vivienda;
+      |  ^~~~~~~~
+..\src\cencista.h:76:34: error: unknown type name 'Vivienda'
+   76 | void ListarCensistasPorViviendas(Vivienda* vivienda, int len);
+      |                                  ^~~~~~~~
+..\src\cencista.c: In function 'ListarCensistasPorViviendas':
+..\src\cencista.c:82:34: error: 'censista' undeclared (first use in this function); did you mean 'censistas'?
+   82 |    printf("\n Id vivienda: %d",  censista[i].vivienda.idVivienda);
+      |                                  ^~~~~~~~
+      |                                  censistas
+..\src\cencista.c:82:34: note: each undeclared identifier is reported only once for each function it appears in
+10:03:28 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:19:2: error: unknown type name 'Vivienda'
+   19 |  Vivienda vivienda;
+      |  ^~~~~~~~
+..\src\Primerparcial.c: In function 'main':
+..\src\Primerparcial.c:49:4: error: a label can only be part of a statement and a declaration is not a statement
+   49 |    char calle[100];
+      |    ^~~~
+..\src\Primerparcial.c:117:5: error: a label can only be part of a statement and a declaration is not a statement
+  117 |     char calle[100];
+      |     ^~~~
+..\src\Primerparcial.c:125:5: error: a label can only be part of a statement and a declaration is not a statement
+  125 |     int cantHabitaciones;
+      |     ^~~
+..\src\Primerparcial.c:133:5: error: a label can only be part of a statement and a declaration is not a statement
+  133 |     int cantPersonas ;
+      |     ^~~
+..\src\Primerparcial.c:140:5: error: a label can only be part of a statement and a declaration is not a statement
+  140 |     int tipoVivienda;
+      |     ^~~
+..\src\Primerparcial.c:156:4: error: a label can only be part of a statement and a declaration is not a statement
+  156 |    int id;
+      |    ^~~
+..\src\Primerparcial.c:157:4: error: expected expression before 'int'
+  157 |    int existe = 0;
+      |    ^~~
+..\src\Primerparcial.c:161:7: error: 'existe' undeclared (first use in this function); did you mean 'exit'?
+  161 |       existe = ExisteVivienda(viviendas, TAM_LISTA_VIVIENDAS,id);
+      |       ^~~~~~
+      |       exit
+..\src\Primerparcial.c:161:7: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Primerparcial.c:183:42: warning: passing argument 2 of 'ListarCensistasPorViviendas' makes integer from pointer without a cast [-Wint-conversion]
+  183 |    ListarCensistasPorViviendas(censistas,viviendas, TAM_LISTA_VIVIENDAS);
+      |                                          ^~~~~~~~~
+      |                                          |
+      |                                          Vivienda * {aka struct vivienda *}
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:76:59: note: expected 'int' but argument is of type 'Vivienda *' {aka 'struct vivienda *'}
+   76 | void ListarCensistasPorViviendas(Censista* censistas, int len);
+      |                                                       ~~~~^~~
+..\src\Primerparcial.c:183:4: error: too many arguments to function 'ListarCensistasPorViviendas'
+  183 |    ListarCensistasPorViviendas(censistas,viviendas, TAM_LISTA_VIVIENDAS);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:76:6: note: declared here
+   76 | void ListarCensistasPorViviendas(Censista* censistas, int len);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+10:06:51 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:19:2: error: unknown type name 'Vivienda'
+   19 |  Vivienda vivienda;
+      |  ^~~~~~~~
+..\src\cencista.c: In function 'ListarCensistasPorViviendas':
+..\src\cencista.c:82:55: error: request for member 'idVivienda' in something not a structure or union
+   82 |    printf("\n Id vivienda: %d",  censistas[i].vivienda.idVivienda);
+      |                                                       ^
+..\src\cencista.c:83:48: error: request for member 'calle' in something not a structure or union
+   83 |    printf("\n calle: %s", censistas[i].vivienda.calle);
+      |                                                ^
+..\src\cencista.c:84:65: error: request for member 'cantidadPersonas' in something not a structure or union
+   84 |    printf("\n cantidad de habitantes: %d", censistas[i].vivienda.cantidadPersonas);
+      |                                                                 ^
+..\src\cencista.c:85:67: error: request for member 'cantidadHabitaciones' in something not a structure or union
+   85 |    printf("\n cantidad de habitaciones: %d", censistas[i].vivienda.cantidadHabitaciones);
+      |                                                                   ^
+..\src\cencista.c:86:59: error: request for member 'tipoVivienda' in something not a structure or union
+   86 |    printf("\n tipo de vivienda: %d", censistas[i].vivienda.tipoVivienda);
+      |                                                           ^
+10:07:36 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:19:2: error: unknown type name 'Vivienda'
+   19 |  Vivienda vivienda;
+      |  ^~~~~~~~
+..\src\cencista.c: In function 'ListarCensistasPorViviendas':
+..\src\cencista.c:82:55: error: request for member 'idVivienda' in something not a structure or union
+   82 |    printf("\n Id vivienda: %d",  censistas[i].vivienda.idVivienda);
+      |                                                       ^
+..\src\cencista.c:83:48: error: request for member 'calle' in something not a structure or union
+   83 |    printf("\n calle: %s", censistas[i].vivienda.calle);
+      |                                                ^
+..\src\cencista.c:84:65: error: request for member 'cantidadPersonas' in something not a structure or union
+   84 |    printf("\n cantidad de habitantes: %d", censistas[i].vivienda.cantidadPersonas);
+      |                                                                 ^
+..\src\cencista.c:85:67: error: request for member 'cantidadHabitaciones' in something not a structure or union
+   85 |    printf("\n cantidad de habitaciones: %d", censistas[i].vivienda.cantidadHabitaciones);
+      |                                                                   ^
+..\src\cencista.c:86:59: error: request for member 'tipoVivienda' in something not a structure or union
+   86 |    printf("\n tipo de vivienda: %d", censistas[i].vivienda.tipoVivienda);
+      |                                                           ^
+10:08:01 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:19:2: error: unknown type name 'Vivienda'
+   19 |  Vivienda vivienda;
+      |  ^~~~~~~~
+..\src\Primerparcial.c: In function 'main':
+..\src\Primerparcial.c:49:4: error: a label can only be part of a statement and a declaration is not a statement
+   49 |    char calle[100];
+      |    ^~~~
+..\src\Primerparcial.c:117:5: error: a label can only be part of a statement and a declaration is not a statement
+  117 |     char calle[100];
+      |     ^~~~
+..\src\Primerparcial.c:125:5: error: a label can only be part of a statement and a declaration is not a statement
+  125 |     int cantHabitaciones;
+      |     ^~~
+..\src\Primerparcial.c:133:5: error: a label can only be part of a statement and a declaration is not a statement
+  133 |     int cantPersonas ;
+      |     ^~~
+..\src\Primerparcial.c:140:5: error: a label can only be part of a statement and a declaration is not a statement
+  140 |     int tipoVivienda;
+      |     ^~~
+..\src\Primerparcial.c:156:4: error: a label can only be part of a statement and a declaration is not a statement
+  156 |    int id;
+      |    ^~~
+..\src\Primerparcial.c:157:4: error: expected expression before 'int'
+  157 |    int existe;
+      |    ^~~
+..\src\Primerparcial.c:161:7: error: 'existe' undeclared (first use in this function); did you mean 'exit'?
+  161 |       existe = ExisteVivienda(censistas, TAM_LISTA_VIVIENDAS,id);
+      |       ^~~~~~
+      |       exit
+..\src\Primerparcial.c:161:7: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Primerparcial.c:161:31: warning: passing argument 1 of 'ExisteVivienda' from incompatible pointer type [-Wincompatible-pointer-types]
+  161 |       existe = ExisteVivienda(censistas, TAM_LISTA_VIVIENDAS,id);
+      |                               ^~~~~~~~~
+      |                               |
+      |                               Censista * {aka struct Censista *}
+In file included from ..\src\Primerparcial.c:15:
+..\src\vivienda.h:62:30: note: expected 'Vivienda *' {aka 'struct vivienda *'} but argument is of type 'Censista *' {aka 'struct Censista *'}
+   62 | int ExisteVivienda(Vivienda* viviendas, int len, int idVivienda);
+      |                    ~~~~~~~~~~^~~~~~~~~
+10:08:47 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:19:2: error: unknown type name 'Vivienda'
+   19 |  Vivienda vivienda;
+      |  ^~~~~~~~
+..\src\cencista.c: In function 'ListarCensistasPorViviendas':
+..\src\cencista.c:82:55: error: request for member 'idVivienda' in something not a structure or union
+   82 |    printf("\n Id vivienda: %d",  censistas[i].vivienda.idVivienda);
+      |                                                       ^
+..\src\cencista.c:83:48: error: request for member 'calle' in something not a structure or union
+   83 |    printf("\n calle: %s", censistas[i].vivienda.calle);
+      |                                                ^
+..\src\cencista.c:84:65: error: request for member 'cantidadPersonas' in something not a structure or union
+   84 |    printf("\n cantidad de habitantes: %d", censistas[i].vivienda.cantidadPersonas);
+      |                                                                 ^
+..\src\cencista.c:85:67: error: request for member 'cantidadHabitaciones' in something not a structure or union
+   85 |    printf("\n cantidad de habitaciones: %d", censistas[i].vivienda.cantidadHabitaciones);
+      |                                                                   ^
+..\src\cencista.c:86:59: error: request for member 'tipoVivienda' in something not a structure or union
+   86 |    printf("\n tipo de vivienda: %d", censistas[i].vivienda.tipoVivienda);
+      |                                                           ^
+10:11:00 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\vivienda.o" "..\\src\\vivienda.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+In file included from ..\src\cencista.c:7:
+..\src\cencista.h:10:10: fatal error: vivienda.h: No such file or directory
+   10 | #include <vivienda.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+10:11:32 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+..\src\Primerparcial.c: In function 'main':
+..\src\Primerparcial.c:49:4: error: a label can only be part of a statement and a declaration is not a statement
+   49 |    char calle[100];
+      |    ^~~~
+..\src\Primerparcial.c:117:5: error: a label can only be part of a statement and a declaration is not a statement
+  117 |     char calle[100];
+      |     ^~~~
+..\src\Primerparcial.c:125:5: error: a label can only be part of a statement and a declaration is not a statement
+  125 |     int cantHabitaciones;
+      |     ^~~
+..\src\Primerparcial.c:133:5: error: a label can only be part of a statement and a declaration is not a statement
+  133 |     int cantPersonas ;
+      |     ^~~
+..\src\Primerparcial.c:140:5: error: a label can only be part of a statement and a declaration is not a statement
+  140 |     int tipoVivienda;
+      |     ^~~
+..\src\Primerparcial.c:156:4: error: a label can only be part of a statement and a declaration is not a statement
+  156 |    int id;
+      |    ^~~
+..\src\Primerparcial.c:157:4: error: expected expression before 'int'
+  157 |    int existe = 0;
+      |    ^~~
+..\src\Primerparcial.c:161:7: error: 'existe' undeclared (first use in this function); did you mean 'exit'?
+  161 |       existe = ExisteVivienda(viviendas, TAM_LISTA_VIVIENDAS,id);
+      |       ^~~~~~
+      |       exit
+..\src\Primerparcial.c:161:7: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Primerparcial.c:183:42: warning: passing argument 2 of 'ListarCensistasPorViviendas' makes integer from pointer without a cast [-Wint-conversion]
+  183 |    ListarCensistasPorViviendas(censistas,viviendas, TAM_LISTA_VIVIENDAS);
+      |                                          ^~~~~~~~~
+      |                                          |
+      |                                          Vivienda * {aka struct vivienda *}
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:77:59: note: expected 'int' but argument is of type 'Vivienda *' {aka 'struct vivienda *'}
+   77 | void ListarCensistasPorViviendas(Censista* censistas, int len);
+      |                                                       ~~~~^~~
+..\src\Primerparcial.c:183:4: error: too many arguments to function 'ListarCensistasPorViviendas'
+  183 |    ListarCensistasPorViviendas(censistas,viviendas, TAM_LISTA_VIVIENDAS);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:77:6: note: declared here
+   77 | void ListarCensistasPorViviendas(Censista* censistas, int len);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+10:11:51 **** Incremental Build of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+In file included from ..\src\Primerparcial.c:14:
+..\src\cencista.h:10:10: fatal error: vivienda.h: No such file or directory
+   10 | #include <vivienda.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
