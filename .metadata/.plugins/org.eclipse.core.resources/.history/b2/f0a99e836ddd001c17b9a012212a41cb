@@ -25,15 +25,15 @@ struct Censista {
 void InicializarCensista(Censista* censistas, int len);
 /***
  * @fn void ListarCensista(Censista*, int)
- * @brief array de cencistas
- * @param censistas array de censistas
+ * @brief Muestra los datos del cencista
+ * @param censistas datos del cencista
  * @param len largo del array
  */
 void ListarCensista(Censista* censistas, int len);
 /***
  * @fn void AltaCensista(Censista*, int, int, char[], int, char[])
  * @brief toma los datos del cencista
- * @param censistas array de censistas
+ * @param censistas
  * @param len largo del array
  * @param legajo toma el legajo del cencista
  * @param nombre toma nombre del cencista
@@ -44,7 +44,7 @@ void AltaCensista(Censista* censistas, int len, int legajo, char nombre[], int e
 /***
  * @fn void BajaCensista(Censista*, int, int)
  * @brief da de baja al censista
- * @param censistas  array de censista
+ * @param censistas  borra datos del censista
  * @param len largo del array
  * @param legajo borra legajo
  */
@@ -52,7 +52,7 @@ void BajaCensista(Censista* censistas, int len, int legajo);
 /***
  * @fn void ModificarCensista(Censista*, int, int, int, char[], char[])
  * @brief esta funcion modifica los datos del cencista
- * @param censistas  recorre el array de censistas
+ * @param censistas
  * @param len
  * @param legajo modifica el legajo del cencista
  * @param edad modifica la edad del cencista
@@ -62,10 +62,13 @@ void BajaCensista(Censista* censistas, int len, int legajo);
 void ModificarCensista(Censista* censistas, int len, int legajo, int edad, char telefono[], char nombre[]);
 /***
  * @fn int ExisteCensista(Censista*, int, int)
- * @brief verifica si hay un censista cargado
- * @param censistas recorre el array de cencistas
- * @param len largo del array
- * @param legajo legajo del censista
+ * @brief
+ *
+ * @pre
+ * @post
+ * @param censistas
+ * @param len
+ * @param legajo
  * @return
  */
 int ExisteCensista(Censista* censistas, int len, int legajo);

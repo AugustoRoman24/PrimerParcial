@@ -25,7 +25,7 @@ struct Censista {
 void InicializarCensista(Censista* censistas, int len);
 /***
  * @fn void ListarCensista(Censista*, int)
- * @brief array de cencistas
+ * @brief Muestra los datos del cencista
  * @param censistas array de censistas
  * @param len largo del array
  */

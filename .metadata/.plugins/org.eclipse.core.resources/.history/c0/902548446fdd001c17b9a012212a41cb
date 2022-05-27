@@ -42,18 +42,9 @@ void ListarVivienda(Vivienda* viviendas, int len);
  * @param cantHabitaciones toma la cantida de habitaciones en la vivienda
  * @param tipoVivienda toma el tipo de vivienda
  * @param legajoCensista toma el legajo del cencista
- * @return retorna 1
+ * @return
  */
 int AltaVivienda(Vivienda* viviendas, int len, int idVivienda, char calle[], int cantPersonas, int cantHabitaciones, int tipoVivienda, int legajoCensista);
-/***
- * @fn void ModificarVivienda(Vivienda*, int, int, int, int)
- * @brief modifica los datos de la vivienda
- * @param viviendas
- * @param len
- * @param idVivienda
- * @param modVivienda
- * @param mod
- */
 void ModificarVivienda(Vivienda* viviendas, int len, int idVivienda, int modVivienda, int mod);
 void ModificarCalle(Vivienda* viviendas, int len, int idVivienda, char calle[]);
 int ExisteVivienda(Vivienda* viviendas, int len, int idVivienda);
