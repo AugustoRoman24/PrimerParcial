@@ -1,0 +1,19 @@
+/*
+ * input-UTN.h
+ *
+ *  Created on: 26 may. 2022
+ *      Author: augus
+ */
+
+#ifndef SRC_INPUT_UTN_H_
+#define SRC_INPUT_UTN_H_
+
+int utn_getCadena(char pResultado[], char* mensaje, char* mensajeError);
+/***
+ *
+ */
+int utn_getNumero(int* pResultado, char* mensaje, char* mensajeError,int minimo, int maximo, int reintentos);
+int esNumerica(char* cadena);
+
+#endif /* SRC_INPUT_UTN_H_ */
+

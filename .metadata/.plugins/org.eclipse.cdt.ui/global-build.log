@@ -1,0 +1,8 @@
+23:23:51 **** Rebuild of configuration Debug for project Primerparcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primerparcial.o" "..\\src\\Primerparcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\vivienda.o" "..\\src\\vivienda.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input-UTN.o" "..\\src\\input-UTN.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cencista.o" "..\\src\\cencista.c" 
+gcc -o Primerparcial.exe "src\\Primerparcial.o" "src\\cencista.o" "src\\input-UTN.o" "src\\vivienda.o" 
+Info: Nothing to build for Primerparcial
